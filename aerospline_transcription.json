@@ -1,0 +1,1454 @@
+[
+   {
+      "start_time":2.88284375,
+      "end_time":4.334093750000001,
+      "speaker":"Clémentine",
+      "texte":" Super, on peut commencer."
+   },
+   {
+      "start_time":4.840343750000001,
+      "end_time":7.35471875,
+      "speaker":"Clémentine",
+      "texte":" Est-ce qu'il y a des recommandations ou informations ?"
+   },
+   {
+      "start_time":13.15971875,
+      "end_time":16.39971875,
+      "speaker":"Clémentine",
+      "texte":" Est-ce qu'il y en a certaines qui vont peut-être enlever ?"
+   },
+   {
+      "start_time":16.90596875,
+      "end_time":18.35721875,
+      "speaker":"Clémentine",
+      "texte":" parce qu'elles sont toujours d'actualité."
+   },
+   {
+      "start_time":21.02346875,
+      "end_time":22.42409375,
+      "speaker":"Gaël",
+      "texte":" Merci."
+   },
+   {
+      "start_time":27.891593750000002,
+      "end_time":32.11034375,
+      "speaker":"Guillaume",
+      "texte":" Enlève la ligne 10, en vrai."
+   },
+   {
+      "start_time":34.92846875,
+      "end_time":43.90596875,
+      "speaker":"Hadrien",
+      "texte":" Et de fait, dans les recommandations, je ne sais pas si vous aviez déjà avancé dessus, Guillaume, mais on en est où du coup sur le sujet du versionning dans les repos ?"
+   },
+   {
+      "start_time":44.27721875,
+      "end_time":48.17534375,
+      "speaker":"Hadrien",
+      "texte":" Qu'est-ce qu'on doit faire du fichier version ? Est-ce qu'on le supprime officiellement ?"
+   },
+   {
+      "start_time":48.74909375,
+      "end_time":49.96409375,
+      "speaker":"Hadrien",
+      "texte":" Il servait..."
+   },
+   {
+      "start_time":49.96409375,
+      "end_time":55.44846875,
+      "speaker":"Guillaume",
+      "texte":" reviendra plus là aujourd'hui si vous le supprimez il y a moyen qu'ils reviennent si vous êtes sur une vieille version d'AS package"
+   },
+   {
+      "start_time":55.80284375,
+      "end_time":58.43534375,
+      "speaker":"Guillaume",
+      "texte":" mais il ne sera plus du tout utilisé."
+   },
+   {
+      "start_time":59.36346875,
+      "end_time":60.477218750000006,
+      "speaker":"Guillaume",
+      "texte":" OK."
+   },
+   {
+      "start_time":65.43846875,
+      "end_time":69.50534375000001,
+      "speaker":"Clémentine",
+      "texte":" Si quelqu'un s'en revient à un moment, n'hésitez pas. Merci."
+   },
+   {
+      "start_time":71.12534375,
+      "end_time":76.84596875000001,
+      "speaker":"Gaël",
+      "texte":" Il y avait un truc où la mise à jour du hub faisait que tous les paramètres"
+   },
+   {
+      "start_time":77.11596875000001,
+      "end_time":79.32659375,
+      "speaker":"Gaël",
+      "texte":" de l'UR et Thérisette a..."
+   },
+   {
+      "start_time":80.00159375,
+      "end_time":84.42284375,
+      "speaker":"Gaël",
+      "texte":" à zéro quoi, donc on n'avait plus aucun accès à tout ce qui était pour RSSH,"
+   },
+   {
+      "start_time":84.77721875,
+      "end_time":85.94159375000001,
+      "speaker":"Gaël",
+      "texte":" tout ça tout ça"
+   },
+   {
+      "start_time":86.27909375,
+      "end_time":88.11846875,
+      "speaker":"Gaël",
+      "texte":" Et au final, avec la"
+   },
+   {
+      "start_time":89.13096875000001,
+      "end_time":91.98284375,
+      "speaker":"Gaël",
+      "texte":" 5.18.1, ça a été..."
+   },
+   {
+      "start_time":92.65784375000001,
+      "end_time":107.06909375000001,
+      "speaker":"Gaël",
+      "texte":" corrigé et donc du coup je fais la mise à jour depuis bah moi c'était depuis la 5.16 vers la 5.18.1 j'ai pas eu de problème et tous les paramètres étaient tel quel"
+   },
+   {
+      "start_time":112.03034375,
+      "end_time":115.69221875000001,
+      "speaker":"Gaël",
+      "texte":" Il fallait juste étendre et rallumer le robot après la mise à jour."
+   },
+   {
+      "start_time":124.29846875000001,
+      "end_time":126.57659375000001,
+      "speaker":"Clémentine",
+      "texte":" Genre, on prend du water, mais voilà."
+   },
+   {
+      "start_time":127.82534375,
+      "end_time":131.25096875,
+      "speaker":"Clémentine",
+      "texte":" Ok. Est-ce que quelqu'un a des warnings ?"
+   },
+   {
+      "start_time":133.27596875,
+      "end_time":135.01409375,
+      "speaker":"Gaël",
+      "texte":" Je vais essayer d'en sortir une."
+   },
+   {
+      "start_time":141.96659375000002,
+      "end_time":144.78471875,
+      "speaker":"Clémentine",
+      "texte":" Non. Est-ce que les deux qui sont là sont toujours d'actualité ?"
+   },
+   {
+      "start_time":149.37471875,
+      "end_time":150.97784375,
+      "speaker":"Lucie",
+      "texte":" Le deuxième, c'est tout le temps ?"
+   },
+   {
+      "start_time":152.86784375000002,
+      "end_time":155.28096875,
+      "speaker":"Clémentine",
+      "texte":" Ok, on peut le laisser comme ça."
+   },
+   {
+      "start_time":155.90534375000001,
+      "end_time":157.45784375000002,
+      "speaker":"Clémentine",
+      "texte":" Et tu fais quand même des problèmes avec des modules."
+   },
+   {
+      "start_time":160.07346875000002,
+      "end_time":164.02221875,
+      "speaker":"Manon",
+      "texte":" Oui, le modulaire, mais il est au courant, Thomas. Il a dit qu'il verra ça demain."
+   },
+   {
+      "start_time":164.84909375,
+      "end_time":168.20721875,
+      "speaker":"Manon",
+      "texte":" C'est pour les violations et les faults, ils se débloquent pas."
+   },
+   {
+      "start_time":168.79784375,
+      "end_time":170.28284375,
+      "speaker":"Manon",
+      "texte":" avec le Star Tribute."
+   },
+   {
+      "start_time":171.86909375000002,
+      "end_time":174.23159375,
+      "speaker":"Manon",
+      "texte":" de la fonction que s'introbote."
+   },
+   {
+      "start_time":175.39596875,
+      "end_time":177.97784375,
+      "speaker":"Manon",
+      "texte":" Je ne déclenche pas la violation de l'offre."
+   },
+   {
+      "start_time":182.39909375000002,
+      "end_time":183.44534375,
+      "speaker":"Clémentine",
+      "texte":" Ça ne débloque pas quoi quand même ?"
+   },
+   {
+      "start_time":183.90096875,
+      "end_time":186.44909375,
+      "speaker":"Manon",
+      "texte":" le robot quand il est en violation ou en folle."
+   },
+   {
+      "start_time":196.11846875,
+      "end_time":197.97471875000002,
+      "speaker":"Gaël",
+      "texte":" Et puis, il y a une petite minute."
+   },
+   {
+      "start_time":198.46409375000002,
+      "end_time":199.56096875,
+      "speaker":"Clémentine",
+      "texte":" Et cela, on est en jeu."
+   },
+   {
+      "start_time":201.50159375,
+      "end_time":202.98659375000003,
+      "speaker":"Clémentine",
+      "texte":" Sous-titrage ST' 501"
+   },
+   {
+      "start_time":208.74096875,
+      "end_time":210.58034375000003,
+      "speaker":"Alexandre",
+      "texte":" Je marque ça, qui va vous pertainir."
+   },
+   {
+      "start_time":213.58409375000002,
+      "end_time":214.83284375000002,
+      "speaker":"Lucie",
+      "texte":" Tu fais quoi avec cette goutte?"
+   },
+   {
+      "start_time":216.08159375000002,
+      "end_time":221.14409375000002,
+      "speaker":"Axel",
+      "texte":" Parce que quand il est en violation ou en machin, ça coupe le RTDE, c'est ça ?"
+   },
+   {
+      "start_time":221.95409375000003,
+      "end_time":224.06346875000003,
+      "speaker":"Axel",
+      "texte":" Merci."
+   },
+   {
+      "start_time":228.34971875000002,
+      "end_time":230.10471875000002,
+      "speaker":"Axel",
+      "texte":" Il le met dans son thread et il ne sait pas ce qu'il fait."
+   },
+   {
+      "start_time":229.07534375,
+      "end_time":231.35346875000002,
+      "speaker":"Lucie",
+      "texte":" C'est ce qu'on appelle un module."
+   },
+   {
+      "start_time":232.09596875000003,
+      "end_time":233.22659375,
+      "speaker":"Lucie",
+      "texte":" que ce ne soit pas de le bluffer."
+   },
+   {
+      "start_time":237.63096875000002,
+      "end_time":238.74471875,
+      "speaker":"Manon",
+      "texte":" pas fonctionner normalement."
+   },
+   {
+      "start_time":244.48221875000002,
+      "end_time":246.23721875,
+      "speaker":"Clémentine",
+      "texte":" Est-ce qu'il y a d'autres problèmes avec les modules ?"
+   },
+   {
+      "start_time":250.57409375,
+      "end_time":253.93221875,
+      "speaker":"Clémentine",
+      "texte":" Est-ce que quelqu'un a des questions de manière générale ?"
+   },
+   {
+      "start_time":255.65346875000003,
+      "end_time":257.15534375000004,
+      "speaker":"Axel",
+      "texte":" J'ai une question."
+   },
+   {
+      "start_time":258.11721875,
+      "end_time":267.02721875000003,
+      "speaker":"Axel",
+      "texte":" C'est normal que parfois, j'ai besoin d'avoir le..."
+   },
+   {
+      "start_time":267.56721875,
+      "end_time":268.95096875,
+      "speaker":"Lucie",
+      "texte":" Merci à tous."
+   },
+   {
+      "start_time":268.64721875000004,
+      "end_time":273.03471875,
+      "speaker":"Axel",
+      "texte":" Sur Seaglide, je n'ai pas besoin de mettre en ping-pong."
+   },
+   {
+      "start_time":285.13409375000003,
+      "end_time":287.19284375,
+      "speaker":"Manon",
+      "texte":" J'ai pas compris ce que vous avez dit."
+   },
+   {
+      "start_time":287.63159375000004,
+      "end_time":288.96471875000003,
+      "speaker":"Axel",
+      "texte":" C'est quoi l'input en question ?"
+   },
+   {
+      "start_time":289.79159375,
+      "end_time":291.36096875000004,
+      "speaker":"Axel",
+      "texte":" Non, c'est l'extra gros pinput."
+   },
+   {
+      "start_time":292.23846875000004,
+      "end_time":295.02284375,
+      "speaker":"Axel",
+      "texte":" Ah, l'extra, putain, l'extra groupie."
+   },
+   {
+      "start_time":298.78596875,
+      "end_time":301.63784375,
+      "speaker":"Hadrien",
+      "texte":" Normalement, tu es censé..."
+   },
+   {
+      "start_time":302.29596875000004,
+      "end_time":315.50909375000003,
+      "speaker":"Hadrien",
+      "texte":" T'es censé tout le temps l'avoir, un steampunk là. Si tu l'as pas, a priori, c'est que ton utilisateur... Ah, c'est peut-être que l'utilisateur est en studio ou quoi, mais normalement, t'es censé toujours l'avoir, si tu veux utiliser la manette, sans être en service au minimum."
+   },
+   {
+      "start_time":319.33971875000003,
+      "end_time":322.66409375,
+      "speaker":"Hadrien",
+      "texte":" Mais du coup, là, tu me dis qu'il y a un cas de figure où tu n'as pas besoin de l'avoir et ça marche ?"
+   },
+   {
+      "start_time":330.51096875,
+      "end_time":332.33346875,
+      "speaker":"Guillaume",
+      "texte":" C'est pas de dialogue plutôt ?"
+   },
+   {
+      "start_time":333.83534375000005,
+      "end_time":338.00346875,
+      "speaker":"Guillaume",
+      "texte":" Je regarde les groupes, mais c'est pas un dial-out plutôt ? C'est un dial-out, oui."
+   },
+   {
+      "start_time":338.13846875,
+      "end_time":340.28159375,
+      "speaker":"Guillaume",
+      "texte":" Oui, il y a là-haut pour les ports séries."
+   },
+   {
+      "start_time":341.31096875000003,
+      "end_time":342.77909375,
+      "speaker":"Guillaume",
+      "texte":" Il nous faut du coup par série, ça."
+   },
+   {
+      "start_time":341.58096875,
+      "end_time":347.47034375000004,
+      "speaker":"Hadrien",
+      "texte":" Mais du coup, par série, ça contient aussi les slashdesk, slash hdi, machin, là ?"
+   },
+   {
+      "start_time":348.83721875000003,
+      "end_time":356.31284375,
+      "speaker":"Hadrien",
+      "texte":" Oui, non, ça n'existe pas Input aussi ? Ce n'est pas un groupe ? Non, mais c'est Dialout. Je pense que c'est de ça qu'il parle. Ah, d'accord."
+   },
+   {
+      "start_time":355.63784375,
+      "end_time":357.29159375,
+      "speaker":"Lucie",
+      "texte":" Et une goutte sur l'extra-groupe."
+   },
+   {
+      "start_time":358.06784375,
+      "end_time":361.20659375,
+      "speaker":"Lucie",
+      "texte":" Il existe, mais ça fait la même chose."
+   },
+   {
+      "start_time":362.03346875,
+      "end_time":364.76721875000004,
+      "speaker":"Lucie",
+      "texte":" Et si on s'y met un peu à l'intérieur, ça marche aussi."
+   },
+   {
+      "start_time":372.09096875,
+      "end_time":378.97596875000005,
+      "speaker":"Hadrien",
+      "texte":" Effectivement, c'est d'ailleurs... A priori, le groupe InFoot, oui. Si c'était ça, littéralement, que tu voulais dire, non, le groupe InFoot, moi, je l'ai fait."
+   },
+   {
+      "start_time":378.70596875,
+      "end_time":380.79846875000004,
+      "speaker":"Guillaume",
+      "texte":" Un standard, je ne le vois pas passer."
+   },
+   {
+      "start_time":381.08534375000005,
+      "end_time":383.05971875,
+      "speaker":"Lucie",
+      "texte":" C'est les agents pour les squelettes."
+   },
+   {
+      "start_time":386.16471875,
+      "end_time":389.91096875000005,
+      "speaker":"Guillaume",
+      "texte":" Ok, il faut l'ajouter dans le template dans ce cas-là."
+   },
+   {
+      "start_time":390.97409375,
+      "end_time":392.25659375000004,
+      "speaker":"Guillaume",
+      "texte":" C'est un groupe important."
+   },
+   {
+      "start_time":393.04971875,
+      "end_time":395.49659375000005,
+      "speaker":"Guillaume",
+      "texte":" ah ouais c'est un truc ça effectivement"
+   },
+   {
+      "start_time":399.34409375,
+      "end_time":400.45784375000005,
+      "speaker":"Lucie",
+      "texte":" C'est dans le doc, après."
+   },
+   {
+      "start_time":403.68096875000003,
+      "end_time":405.70596875,
+      "speaker":"Manon",
+      "texte":" Oui, oui, c'est le casier."
+   },
+   {
+      "start_time":408.00096875,
+      "end_time":410.83596875,
+      "speaker":"Axel",
+      "texte":" J'ai le dial-out aussi dans mon projet."
+   },
+   {
+      "start_time":410.43096875000003,
+      "end_time":412.11846875000003,
+      "speaker":"Lucie",
+      "texte":" Sur les maths. Sur les maths ?"
+   },
+   {
+      "start_time":411.42659375000005,
+      "end_time":416.11784375,
+      "speaker":"Axel",
+      "texte":" Solimat, et je ne peux quand même pas utiliser la manette sans l'extra group input."
+   },
+   {
+      "start_time":417.83909375,
+      "end_time":419.07096875,
+      "speaker":"Hadrien",
+      "texte":" Ok."
+   },
+   {
+      "start_time":423.89721875000004,
+      "end_time":427.25534375,
+      "speaker":"Hadrien",
+      "texte":" Si, si, si, tu vas voir, c'est pas drôle après."
+   },
+   {
+      "start_time":427.87971875000005,
+      "end_time":432.35159375,
+      "speaker":"Hadrien",
+      "texte":" Non, j'avoue, c'est chelou. Normalement, le groupe input, c'est bizarre. À moins qu'on ait changé quelque chose."
+   },
+   {
+      "start_time":431.49096875000004,
+      "end_time":436.38471875000005,
+      "speaker":"Guillaume",
+      "texte":" À moins qu'on ait changé quelque chose sur le module joystick, on n'a pas regardé, enfin moi j'ai pas regardé récemment."
+   },
+   {
+      "start_time":437.61659375000005,
+      "end_time":441.86909375000005,
+      "speaker":"Hadrien",
+      "texte":" Non, c'est toujours Pigame. Ah non, peut-être pas."
+   },
+   {
+      "start_time":439.18596875000003,
+      "end_time":440.72159375,
+      "speaker":"Guillaume",
+      "texte":" Je crois qu'il y en a un."
+   },
+   {
+      "start_time":443.03346875000005,
+      "end_time":444.46784375000004,
+      "speaker":"Guillaume",
+      "texte":" Peut-être qu'il ne va plus me les chercher au même endroit."
+   },
+   {
+      "start_time":446.35784375000003,
+      "end_time":455.14971875000003,
+      "speaker":"Axel",
+      "texte":" Et Piguet, il ne voit pas le..."
+   },
+   {
+      "start_time":455.68971875000005,
+      "end_time":464.02596875,
+      "speaker":"Axel",
+      "texte":" la manette, alors qu'elle est connectée sur la machine. La machine, elle me dit que c'est bien connecté. Et le P-Game, il me dit, je ne vois pas de joystick."
+   },
+   {
+      "start_time":465.34221875000003,
+      "end_time":473.00346875,
+      "speaker":"Hadrien",
+      "texte":" Le groupe input, c'est effectivement pour donner accès aux utilisateurs à slash dev slash input ?"
+   },
+   {
+      "start_time":473.49284375,
+      "end_time":475.46721875000003,
+      "speaker":"Hadrien",
+      "texte":" Du coup, oui."
+   },
+   {
+      "start_time":475.65284375000005,
+      "end_time":478.97721875,
+      "speaker":"Hadrien",
+      "texte":" C'est vrai, voilà, effectivement."
+   },
+   {
+      "start_time":479.36534375,
+      "end_time":485.74409375000005,
+      "speaker":"Hadrien",
+      "texte":" Effectivement, très, très vrai. Mais je ne comprends pas pourquoi. Du coup, c'est pour les céréales, c'est TTY ? Oui, c'est céréales, oui."
+   },
+   {
+      "start_time":484.79909375000005,
+      "end_time":486.94221875000005,
+      "speaker":"Guillaume",
+      "texte":" Il y a peut-être quelque chose qui a changé."
+   },
+   {
+      "start_time":488.03909375,
+      "end_time":490.51971875000004,
+      "speaker":"Guillaume",
+      "texte":" Tout simplement, peut-être que dans le carnaval, il y a..."
+   },
+   {
+      "start_time":491.48159375000006,
+      "end_time":492.83159375,
+      "speaker":"Guillaume",
+      "texte":" Il y a eu un mouvement sur les groupes."
+   },
+   {
+      "start_time":496.05471875,
+      "end_time":498.14721875000004,
+      "speaker":"Lucie",
+      "texte":" Peut-être que ça fait que ce soit un vieux PC ?"
+   },
+   {
+      "start_time":500.72909375,
+      "end_time":506.39909375,
+      "speaker":"Lucie",
+      "texte":" Je ne sais pas, parce que par exemple, je regardais sur BlastDem, tu n'as pas, et vous non plus, une vision de la planète. Donc, a priori, c'est..."
+   },
+   {
+      "start_time":507.12471875000006,
+      "end_time":508.84596875000005,
+      "speaker":"Axel",
+      "texte":" Mais après, je..."
+   },
+   {
+      "start_time":508.72784375000003,
+      "end_time":509.95971875000004,
+      "speaker":"Lucie",
+      "texte":" Je ne sais pas si ça en va."
+   },
+   {
+      "start_time":509.06534375,
+      "end_time":511.90034375000005,
+      "speaker":"Axel",
+      "texte":" Je ne sais pas si c'est en rapport avec..."
+   },
+   {
+      "start_time":515.7309687500001,
+      "end_time":519.30846875,
+      "speaker":"Lucie",
+      "texte":" C'est ce que j'ai dit, j'ai dit que vos filles, elles sont pourniques, c'est ce que je disais."
+   },
+   {
+      "start_time":521.73846875,
+      "end_time":526.19346875,
+      "speaker":"Alexandre",
+      "texte":" Est-ce qu'on a testé la scanette en..."
+   },
+   {
+      "start_time":527.9653437500001,
+      "end_time":529.41659375,
+      "speaker":"Maxime",
+      "texte":" On n'a pas de..."
+   },
+   {
+      "start_time":530.3447187500001,
+      "end_time":533.0615937499999,
+      "speaker":"Maxime",
+      "texte":" Juste comme ça, en testant, voir si ça a envoyé des données."
+   },
+   {
+      "start_time":535.6940937500001,
+      "end_time":538.6472187500001,
+      "speaker":"Alexandre",
+      "texte":" Je suis convaincu que j'ai essayé un temps en salle, sinon j'aurais essayé ça."
+   },
+   {
+      "start_time":542.93346875,
+      "end_time":544.92471875,
+      "speaker":"Lucie",
+      "texte":" Donc, toi, si la manette est morte, je ne vais pas l'écouter."
+   },
+   {
+      "start_time":549.73409375,
+      "end_time":550.9153437500001,
+      "speaker":"Gaël",
+      "texte":" Merci."
+   },
+   {
+      "start_time":557.85096875,
+      "end_time":559.4709687500001,
+      "speaker":"Clémentine",
+      "texte":" Au revoir tout le monde."
+   },
+   {
+      "start_time":560.93909375,
+      "end_time":564.58409375,
+      "speaker":"Clémentine",
+      "texte":" Ok, parfait. Alors, du coup, qu'on a dans la stack ?"
+   },
+   {
+      "start_time":565.3772187500001,
+      "end_time":577.54409375,
+      "speaker":"Maxime",
+      "texte":" les réseaux ont été configurés."
+   },
+   {
+      "start_time":578.7253437500001,
+      "end_time":580.6828437500001,
+      "speaker":"Maxime",
+      "texte":" c'est-à-dire alias la rampe."
+   },
+   {
+      "start_time":582.04971875,
+      "end_time":589.91346875,
+      "speaker":"Maxime",
+      "texte":" C'est-à-dire que maintenant on peut modifier du coup"
+   },
+   {
+      "start_time":590.2847187500001,
+      "end_time":595.1615937500001,
+      "speaker":"Maxime",
+      "texte":" une caméra directement dans le code, directement à l'instantiation et même après."
+   },
+   {
+      "start_time":595.6003437500001,
+      "end_time":599.73471875,
+      "speaker":"Maxime",
+      "texte":" Oui."
+   },
+   {
+      "start_time":604.54409375,
+      "end_time":605.92784375,
+      "speaker":"Maxime",
+      "texte":" Merci."
+   },
+   {
+      "start_time":618.04409375,
+      "end_time":619.32659375,
+      "speaker":"Clémentine",
+      "texte":" Je ne sais pas si c'est..."
+   },
+   {
+      "start_time":623.95034375,
+      "end_time":625.63784375,
+      "speaker":"Clémentine",
+      "texte":" On peut envoyer un message ?"
+   },
+   {
+      "start_time":634.8515937500001,
+      "end_time":638.9353437500001,
+      "speaker":"Clémentine",
+      "texte":" Ok. Est-ce qu'il y a d'autres nouveautés ?"
+   },
+   {
+      "start_time":640.57221875,
+      "end_time":644.06534375,
+      "speaker":"Manon",
+      "texte":" On n'avait pas écrit pour le monoplastique."
+   },
+   {
+      "start_time":646.6640937500001,
+      "end_time":649.0265937500001,
+      "speaker":"Manon",
+      "texte":" J'ai hâte de le manger aussi. Oui."
+   },
+   {
+      "start_time":649.3640937499999,
+      "end_time":652.4353437500001,
+      "speaker":"Manon",
+      "texte":" Non, il est sur Westpacage."
+   },
+   {
+      "start_time":655.6753437500001,
+      "end_time":658.69596875,
+      "speaker":"Manon",
+      "texte":" Et on peut faire plusieurs combinaisons de boutons avec des actions et tout ça."
+   },
+   {
+      "start_time":659.67471875,
+      "end_time":663.35346875,
+      "speaker":"Manon",
+      "texte":" On peut choisir si on veut un front montant ou descendant, si on appuie ou si on lâche."
+   },
+   {
+      "start_time":670.1372187500001,
+      "end_time":672.90471875,
+      "speaker":"Manon",
+      "texte":" Il y a un fichier d'exemple test dans le module."
+   },
+   {
+      "start_time":680.1272187500001,
+      "end_time":681.20721875,
+      "speaker":"Clémentine",
+      "texte":" Ok, parfait."
+   },
+   {
+      "start_time":681.20721875,
+      "end_time":696.5972187500001,
+      "speaker":"Franco",
+      "texte":" Moi, il y a une autre chose que j'ai signé, du coup, sur le module Rocko Flower. Il faut faire du merge, du coup, de l'avance sur laquelle j'ai travaillé. Et normalement, vous avez la disposition des simulations à faire pour générer des rapports statistiques par rapport à l'erreur de relock, du coup."
+   },
+   {
+      "start_time":701.87909375,
+      "end_time":704.79846875,
+      "speaker":"Manon",
+      "texte":" Quel genre de rapport statistique ?"
+   },
+   {
+      "start_time":705.62534375,
+      "end_time":729.82409375,
+      "speaker":"Franco",
+      "texte":" Il te permet de savoir la distribution de ton erreur, des positions et d'orientation d'une pose que tu veux relocaliser, ou un ensemble de poses du coup. Et chaque pose à relocaliser, il aura son propre rapport à elle, des positions et d'orientation. Ça veut dire qu'on peut estimer ou quantifier quelle va être l'erreur de reloc de ces poses-là."
+   },
+   {
+      "start_time":733.80659375,
+      "end_time":748.6059687500001,
+      "speaker":"Guillaume",
+      "texte":" Le but, c'est juste qu'on dessine une scène, on dit j'ai mon enrico qui est à tel endroit, j'ai mes postes de travail qui sont à tel endroit, que pour chaque poste de travail, on ait une idée de la quantité d'erreurs projetées, c'est en fonction de la distance."
+   },
+   {
+      "start_time":749.3484687499999,
+      "end_time":755.18721875,
+      "speaker":"Guillaume",
+      "texte":" Plus les points sont proches, plus ce sera précis, plus ils seront loin de la récolte, plus on devrait voir de la dispersion."
+   },
+   {
+      "start_time":758.51159375,
+      "end_time":762.2409687500001,
+      "speaker":"Guillaume",
+      "texte":" C'est pour qu'on puisse répondre aux questions, en fait, de... Si on met la recola..."
+   },
+   {
+      "start_time":762.34221875,
+      "end_time":763.4897187500001,
+      "speaker":"Guillaume",
+      "texte":" Quelles précisions on peut atteindre ?"
+   },
+   {
+      "start_time":765.58221875,
+      "end_time":769.6997187500001,
+      "speaker":"Guillaume",
+      "texte":" Et plus tard, si on dit « Ok, mais si jamais on mettait un deuxième Arruco ? »"
+   },
+   {
+      "start_time":769.9697187500001,
+      "end_time":771.06659375,
+      "speaker":"Guillaume",
+      "texte":" À l'opposé ?"
+   },
+   {
+      "start_time":771.6909687500001,
+      "end_time":774.55971875,
+      "speaker":"Guillaume",
+      "texte":" est-ce que ça améliore ?"
+   },
+   {
+      "start_time":775.11659375,
+      "end_time":810.3684687500001,
+      "speaker":"Franco",
+      "texte":" Du coup ça je l'ai déjà fait ce matin du coup et c'est ce qui est logique et bah le résultat c'était que bien évidemment oui normalement si t'appelles sur Haruko et tu marches les 100 fois entre eux normalement la pression elle les améliore aussi du coup peut-être faudrait changer la façon dont aujourd'hui on fait la relock à un truc qui"
+   },
+   {
+      "start_time":809.6259687500001,
+      "end_time":813.2878437500001,
+      "speaker":"Guillaume",
+      "texte":" C'est juste que pendant la phase de conception, avant même de..."
+   },
+   {
+      "start_time":813.7097187500001,
+      "end_time":818.0972187500001,
+      "speaker":"Guillaume",
+      "texte":" De figer la méca, on peut déjà... Les méca peuvent nous poser la question."
+   },
+   {
+      "start_time":818.56971875,
+      "end_time":822.4509687500001,
+      "speaker":"Guillaume",
+      "texte":" Si je te le mets là, ça te convient ? Si j'en mets un deuxième là, ça vous convient ?"
+   },
+   {
+      "start_time":827.2097187500001,
+      "end_time":829.65659375,
+      "speaker":"Guillaume",
+      "texte":" et pas de le découvrir une fois que c'est monté"
+   },
+   {
+      "start_time":834.9722187500001,
+      "end_time":837.0647187500001,
+      "speaker":"Clémentine",
+      "texte":" Ok, est-ce qu'il y a d'autres nouveautés ?"
+   },
+   {
+      "start_time":839.96721875,
+      "end_time":841.8234687500001,
+      "speaker":"Clémentine",
+      "texte":" Non. Est-ce que vous voulez quelque chose d'instant ?"
+   },
+   {
+      "start_time":844.20284375,
+      "end_time":846.7847187500001,
+      "speaker":"Guillaume",
+      "texte":" Il y a Thomas qui arrive peut-être, qui va rajouter des trucs."
+   },
+   {
+      "start_time":849.09659375,
+      "end_time":854.98596875,
+      "speaker":"Clémentine",
+      "texte":" Thomas, on va reprendre le point si tu veux. Il n'y a rien d'autre ou il n'y a rien qui est là qui a été fait ?"
+   },
+   {
+      "start_time":857.36534375,
+      "end_time":861.8372187500001,
+      "speaker":"Manon",
+      "texte":" C'était pour Théo, le solver équipé avec le PCP, ça va arriver bientôt."
+   },
+   {
+      "start_time":862.0734687500001,
+      "end_time":879.1340937500001,
+      "speaker":"Théo",
+      "texte":" On a vu avec Thomas, en fait, on veut le mettre, le solver people, qu'il soit dans UR, on va le mettre dans solver, ça va changer des trucs. Comme ça, on aura un stencil. Oui."
+   },
+   {
+      "start_time":879.2522187500001,
+      "end_time":882.8803437500001,
+      "speaker":"Manon",
+      "texte":" On a le temps de finir ce jour, il faut savoir qu'on est axé à s'occuper, c'est pas vraiment..."
+   },
+   {
+      "start_time":884.4328437500001,
+      "end_time":886.5590937500001,
+      "speaker":"Lucie",
+      "texte":" Il y a beaucoup de choses à inventer dans ce livre."
+   },
+   {
+      "start_time":892.22909375,
+      "end_time":902.94471875,
+      "speaker":"Théo",
+      "texte":" Je ne sais pas comment dire. Je ne peux pas répondre, je ne comprends pas le genre de décision. Guillaume, à la tête."
+   },
+   {
+      "start_time":892.6003437500001,
+      "end_time":893.96721875,
+      "speaker":"Lucie",
+      "texte":" C'est juste génial."
+   },
+   {
+      "start_time":893.96721875,
+      "end_time":896.3972187500001,
+      "speaker":"Gaël",
+      "texte":" Je ne sais pas comment dire."
+   },
+   {
+      "start_time":902.94471875,
+      "end_time":905.49284375,
+      "speaker":"Guillaume",
+      "texte":" On va reboucler avec Thomas après."
+   },
+   {
+      "start_time":906.5559687500001,
+      "end_time":908.1084687500002,
+      "speaker":"Clémentine",
+      "texte":" Bonjour, désolé."
+   },
+   {
+      "start_time":909.96471875,
+      "end_time":913.77846875,
+      "speaker":"Clémentine",
+      "texte":" En même temps, c'est enregistré, donc j'espère que tu veux le faire."
+   },
+   {
+      "start_time":918.9253437500001,
+      "end_time":920.2922187500001,
+      "speaker":"Manon",
+      "texte":" Ouais, du coup..."
+   },
+   {
+      "start_time":920.3259687500001,
+      "end_time":925.89471875,
+      "speaker":"Lucie",
+      "texte":" Après ne pas le mettre dans l'UR, ça peut être une chose, mais le mettre dans"
+   },
+   {
+      "start_time":926.40096875,
+      "end_time":929.4890937500002,
+      "speaker":"Alexandre",
+      "texte":" C'était quoi la problématique vis-à-vis du solver ?"
+   },
+   {
+      "start_time":930.1809687500001,
+      "end_time":933.9272187500001,
+      "speaker":"Clémentine",
+      "texte":" C'était importer SolverCupé, séparément de Solver."
+   },
+   {
+      "start_time":935.71596875,
+      "end_time":939.34409375,
+      "speaker":"Alexandre",
+      "texte":" vous ne voulez pas que Solver soit dans Solver ?"
+   },
+   {
+      "start_time":939.81659375,
+      "end_time":943.05659375,
+      "speaker":"Manon",
+      "texte":" pas tant que solver soit pas stable non mais"
+   },
+   {
+      "start_time":942.76971875,
+      "end_time":954.3797187500002,
+      "speaker":"Alexandre",
+      "texte":" Non, mais évidemment, là, je te parle d'un horizon. Enfin, en fait, tu peux très bien instancier un solver, mais ne pas utiliser les trucs qui sont considérés pas stables. Juste t'appelles solver cupé du solver. C'est juste pour que ce soit... C'est pour nettoyer le code de..."
+   },
+   {
+      "start_time":953.31659375,
+      "end_time":955.3584687500002,
+      "speaker":"Guillaume",
+      "texte":" C'est pour nettoyer le code du R, en fait."
+   },
+   {
+      "start_time":956.8940937500001,
+      "end_time":971.40659375,
+      "speaker":"Alexandre",
+      "texte":" c'est pour éviter d'avoir déjà deux solvers qui se trimbalent ensemble parce que ça n'a pas vraiment de sens et c'est pour le futur dans le sens quand on aura tout ce qui va être gestion de collision etc ça va être relou de devoir le mettre et dans solver et dans solver cupé ça va faire une redondance"
+   },
+   {
+      "start_time":971.5247187500001,
+      "end_time":973.1784687500001,
+      "speaker":"Alexandre",
+      "texte":" Alors que si on met tout au même endroit,"
+   },
+   {
+      "start_time":973.85346875,
+      "end_time":975.08534375,
+      "speaker":"Alexandre",
+      "texte":" ça va être plus adéquat quoi"
+   },
+   {
+      "start_time":977.34659375,
+      "end_time":979.05096875,
+      "speaker":"Franco",
+      "texte":" Il va falloir taffer, du coup..."
+   },
+   {
+      "start_time":981.43034375,
+      "end_time":983.64096875,
+      "speaker":"Guillaume",
+      "texte":" Mais de toute façon, comme on disait avec le"
+   },
+   {
+      "start_time":991.23471875,
+      "end_time":1000.98846875,
+      "speaker":"Alexandre",
+      "texte":" et puis un truc c'est que UR aujourd'hui n'est pas dépendant de SolverQP tous les ordres que vous pouvez appeler avec SolverQP vous pouvez aussi les appeler sans SolverQP et ça ne changera rien à votre vie"
+   },
+   {
+      "start_time":1002.38909375,
+      "end_time":1005.6965937500001,
+      "speaker":"Manon",
+      "texte":" Non, non, non. C'est pour ça qu'un marché dans l'univers, t'inquiète pas pour tout ça."
+   },
+   {
+      "start_time":1006.2703437500002,
+      "end_time":1009.54409375,
+      "speaker":"Manon",
+      "texte":" C'est pour ça que c'était très bien d'être indépendant aussi, mais je comprends autant ce truc."
+   },
+   {
+      "start_time":1010.64096875,
+      "end_time":1013.6784687500001,
+      "speaker":"Alexandre",
+      "texte":" Je ne sais pas si vous m'avez entendu."
+   },
+   {
+      "start_time":1015.7878437500001,
+      "end_time":1017.4922187500001,
+      "speaker":"Manon",
+      "texte":" Et du coup, le truc de TCP, c'est pas un bon truc."
+   },
+   {
+      "start_time":1018.3697187500002,
+      "end_time":1025.03534375,
+      "speaker":"Franco",
+      "texte":" Et du coup, quelle va être la relation qu'il va y avoir entre le module UR et les restes ?"
+   },
+   {
+      "start_time":1026.2672187500002,
+      "end_time":1030.4353437500001,
+      "speaker":"Franco",
+      "texte":" Ça veut dire qu'on va virer tout ce qui existe dans les modules VR et on va les mettre ailleurs, c'est ça ?"
+   },
+   {
+      "start_time":1031.97096875,
+      "end_time":1033.33784375,
+      "speaker":"Alexandre",
+      "texte":" dans les ordres UR."
+   },
+   {
+      "start_time":1033.92846875,
+      "end_time":1041.4378437500002,
+      "speaker":"Alexandre",
+      "texte":" Genre trajectories et manettes où tu peux lui donner le modèle URDF de ton robot et s'instancier un solver coupé derrière."
+   },
+   {
+      "start_time":1041.75846875,
+      "end_time":1043.86784375,
+      "speaker":"Alexandre",
+      "texte":" qui t'aide ou tu peux lui mettre des contraintes."
+   },
+   {
+      "start_time":1046.14596875,
+      "end_time":1049.67284375,
+      "speaker":"Alexandre",
+      "texte":" Tu peux tout autant... Attends, attends."
+   },
+   {
+      "start_time":1054.0772187500002,
+      "end_time":1055.6297187500002,
+      "speaker":"Gaël",
+      "texte":" Merci."
+   },
+   {
+      "start_time":1058.0428437500002,
+      "end_time":1059.5615937500002,
+      "speaker":"Gaël",
+      "texte":" Merci."
+   },
+   {
+      "start_time":1059.66284375,
+      "end_time":1060.74284375,
+      "speaker":"Gaël",
+      "texte":" – Sous-titrage FR –"
+   },
+   {
+      "start_time":1068.0328437500002,
+      "end_time":1071.8465937500002,
+      "speaker":"Franco",
+      "texte":" Il est en train de partager un truc, Thomas ? Ou c'est juste qu'il a disparu ?"
+   },
+   {
+      "start_time":1072.57221875,
+      "end_time":1074.24284375,
+      "speaker":"Clémentine",
+      "texte":" Je pense que Mr. Rémi va revenir."
+   },
+   {
+      "start_time":1077.11159375,
+      "end_time":1086.5447187500001,
+      "speaker":"Guillaume",
+      "texte":" En tout cas, pour répondre un peu plus large, le but à la fin, c'est que l'objet solver, les gens ne le manipulent pas directement. Le but, c'est que quand tu veux faire un mouvement,"
+   },
+   {
+      "start_time":1096.2984687500002,
+      "end_time":1097.4290937500002,
+      "speaker":"Guillaume",
+      "texte":" C'est ça qui est chiant pour toi."
+   },
+   {
+      "start_time":1099.30221875,
+      "end_time":1100.98971875,
+      "speaker":"Guillaume",
+      "texte":" Ok, vous m'entendez."
+   },
+   {
+      "start_time":1100.1797187500001,
+      "end_time":1101.39471875,
+      "speaker":"Alexandre",
+      "texte":" Vous m'entendez, désolé."
+   },
+   {
+      "start_time":1102.0697187500002,
+      "end_time":1103.23409375,
+      "speaker":"Franco",
+      "texte":" Merci d'avoir regardé cette vidéo"
+   },
+   {
+      "start_time":1106.03534375,
+      "end_time":1115.48534375,
+      "speaker":"Franco",
+      "texte":" On pourrait faire un truc malin avec l'ordre joystick qui est en fonction si on lui donne un solver ou un solver coupé, il va instancer un type d'ordre ou un autre type d'ordre, un truc comme ça ?"
+   },
+   {
+      "start_time":1115.7215937500002,
+      "end_time":1119.56909375,
+      "speaker":"Guillaume",
+      "texte":" Il sera caché dans tous les cas, ce n'est pas l'utilisateur. Oui, oui."
+   },
+   {
+      "start_time":1119.1978437500002,
+      "end_time":1122.4547187500002,
+      "speaker":"Franco",
+      "texte":" Oui, mais c'est juste que je me pose la question."
+   },
+   {
+      "start_time":1123.88909375,
+      "end_time":1126.55534375,
+      "speaker":"Alexandre",
+      "texte":" parce que moi je comprendrais pas qu'on ait deux solvers différents"
+   },
+   {
+      "start_time":1127.9222187500002,
+      "end_time":1133.03534375,
+      "speaker":"Franco",
+      "texte":" Ouais, Amri, je suis d'accord. Au niveau API, il faudrait faire un merge. C'est juste que ça va être…"
+   },
+   {
+      "start_time":1132.6809687500001,
+      "end_time":1139.97096875,
+      "speaker":"Alexandre",
+      "texte":" Tu as des cas de figure où on va vouloir utiliser SolverCupé et d'autres fois, on ne va pas vouloir utiliser SolverCupé. Mais le module Solver, il ne faut qu'il n'y en ait qu'un seul. Oui, c'est ça."
+   },
+   {
+      "start_time":1140.2578437500001,
+      "end_time":1147.4972187500002,
+      "speaker":"Guillaume",
+      "texte":" En fait, ça n'aura pas d'impact sur vous quand vous ferez un joystick safe."
+   },
+   {
+      "start_time":1140.2915937500002,
+      "end_time":1141.5234687500001,
+      "speaker":"Alexandre",
+      "texte":" C'est juste, en fait..."
+   },
+   {
+      "start_time":1147.96971875,
+      "end_time":1149.8597187500002,
+      "speaker":"Guillaume",
+      "texte":" C'est juste de la refacto interne, en fait ?"
+   },
+   {
+      "start_time":1150.3997187500001,
+      "end_time":1155.4622187500001,
+      "speaker":"Guillaume",
+      "texte":" Ce n'est pas vraiment un sujet de débat. C'est juste, au lieu d'avoir du code en dur de solver dans UR,"
+   },
+   {
+      "start_time":1155.9009687500002,
+      "end_time":1157.95971875,
+      "speaker":"Guillaume",
+      "texte":" on veut l'upstream dans le vrai soldat."
+   },
+   {
+      "start_time":1163.5284687500002,
+      "end_time":1165.84034375,
+      "speaker":"Clémentine",
+      "texte":" Ok, Thomas, pendant que du coup..."
+   },
+   {
+      "start_time":1165.9078437500002,
+      "end_time":1169.9747187500002,
+      "speaker":"Clémentine",
+      "texte":" Est-ce que tu allais pouvoir faciliter ? Est-ce que tu as des recommandations et informations à donner ?"
+   },
+   {
+      "start_time":1170.59909375,
+      "end_time":1173.99096875,
+      "speaker":"Alexandre",
+      "texte":" Par rapport au moduliaire, pour en revenir, oui, il y a 2-3 problèmes de"
+   },
+   {
+      "start_time":1174.95284375,
+      "end_time":1187.2884687500002,
+      "speaker":"Alexandre",
+      "texte":" qui sont connus et jour après jour il y a des modifs donc n'hésitez pas à regarder les versions d'UR qui sortent sur le master sur la branche master parce que petit à petit je corrige des petits bugs par ci par là"
+   },
+   {
+      "start_time":1188.90846875,
+      "end_time":1194.2915937500002,
+      "speaker":"Alexandre",
+      "texte":" Donc, si vous avez un problème qui n'a pas été corrigé, vous pouvez mettre une issue et je le ferai petit à petit."
+   },
+   {
+      "start_time":1203.5390937500001,
+      "end_time":1209.6309687500002,
+      "speaker":"Clémentine",
+      "texte":" Ok, est-ce que tu as des problèmes avec les modules ? Du coup, le module UR, on a rajouté ça avec maintenant."
+   },
+   {
+      "start_time":1210.2215937500002,
+      "end_time":1216.6172187500001,
+      "speaker":"Alexandre",
+      "texte":" J'ai eu des problèmes avec le module joystick qui ne gère pas certains joysticks, en tout cas pas de manière satisfaisante."
+   },
+   {
+      "start_time":1219.38471875,
+      "end_time":1229.0540937500002,
+      "speaker":"Alexandre",
+      "texte":" avant j'avais une manette Xbox et les gâchettes qui sont censées être analogiques elles étaient en mode tout ou rien quoi"
+   },
+   {
+      "start_time":1230.25221875,
+      "end_time":1234.3865937500002,
+      "speaker":"Alexandre",
+      "texte":" Et quand je veux retourner dans des versions plus anciennes, j'avais un bon comportement."
+   },
+   {
+      "start_time":1241.47409375,
+      "end_time":1247.11034375,
+      "speaker":"Alexandre",
+      "texte":" Donc en fait, il faudrait juste vérifier avec Joystick que tous les types de manettes sont bien supportés et ont le même comportement."
+   },
+   {
+      "start_time":1248.4097187500001,
+      "end_time":1251.2784687500002,
+      "speaker":"Manon",
+      "texte":" Le problème, c'est que quand j'ai voulu faire mes tests, il y avait vraiment..."
+   },
+   {
+      "start_time":1251.6834687500002,
+      "end_time":1256.5603437500001,
+      "speaker":"Manon",
+      "texte":" une seule monnette que j'ai trouvée, un type de monnette que j'ai trouvée dans l'Erospot. Et j'ai vraiment demandé à plusieurs personnes."
+   },
+   {
+      "start_time":1256.9990937500002,
+      "end_time":1260.88034375,
+      "speaker":"Alexandre",
+      "texte":" Elle était sur mon bureau, tu vois, la main de Xbox. Mais elle s'en fout, la main de Xbox, c'est pas ça."
+   },
+   {
+      "start_time":1258.78784375,
+      "end_time":1260.03659375,
+      "speaker":"Manon",
+      "texte":" Je suis toujours déçu."
+   },
+   {
+      "start_time":1261.45409375,
+      "end_time":1264.8797187500002,
+      "speaker":"Alexandre",
+      "texte":" On s'en fout, la problématique c'est pas ça, c'est qu'aujourd'hui il faut juste voir..."
+   },
+   {
+      "start_time":1263.69846875,
+      "end_time":1264.82909375,
+      "speaker":"Manon",
+      "texte":" Non, je ne fais pas ça."
+   },
+   {
+      "start_time":1266.49971875,
+      "end_time":1268.20409375,
+      "speaker":"Alexandre",
+      "texte":" Pourquoi ça ne marche pas ?"
+   },
+   {
+      "start_time":1270.31346875,
+      "end_time":1274.4478437500002,
+      "speaker":"Alexandre",
+      "texte":" Ou alors juste on bannit toutes les manettes et on dit qu'il n'y en a qu'une seule et fin."
+   },
+   {
+      "start_time":1274.54909375,
+      "end_time":1276.4390937500002,
+      "speaker":"Manon",
+      "texte":" Je croyais qu'on tendait vers ça. Bien sûr."
+   },
+   {
+      "start_time":1276.4390937500002,
+      "end_time":1277.9409687500001,
+      "speaker":"Alexandre",
+      "texte":" On tend vers ça, mais..."
+   },
+   {
+      "start_time":1280.2359687500002,
+      "end_time":1282.3622187500002,
+      "speaker":"Alexandre",
+      "texte":" Après, je suis d'accord avec Thomas, c'est pratique de le voir."
+   },
+   {
+      "start_time":1283.1890937500002,
+      "end_time":1298.12346875,
+      "speaker":"Alexandre",
+      "texte":" utiliser d'autres manettes que la manette de Play 5. Parce que, cas tout con, tu pars en TT chez toi, et il s'avère que chez toi,"
+   },
+   {
+      "start_time":1298.4947187500002,
+      "end_time":1301.22846875,
+      "speaker":"Manon",
+      "texte":" Il fallait juste le mettre au cerveau testé."
+   },
+   {
+      "start_time":1300.70534375,
+      "end_time":1303.4053437500002,
+      "speaker":"Alexandre",
+      "texte":" un peu frustrant, c'est que ça marchait avant et ça ne marche plus aujourd'hui."
+   },
+   {
+      "start_time":1303.92846875,
+      "end_time":1310.0372187500002,
+      "speaker":"Alexandre",
+      "texte":" C'est juste de savoir pourquoi c'est le cas et pourquoi on a plus cette fonctionnalité-là."
+   },
+   {
+      "start_time":1311.77534375,
+      "end_time":1312.8553437500002,
+      "speaker":"Manon",
+      "texte":" C'est pour le contrôle du robot ?"
+   },
+   {
+      "start_time":1314.76221875,
+      "end_time":1317.42846875,
+      "speaker":"Alexandre",
+      "texte":" C'est l'interprétation des inputs."
+   },
+   {
+      "start_time":1322.06909375,
+      "end_time":1323.7903437500001,
+      "speaker":"Alexandre",
+      "texte":" Genre, si je print le joystick,"
+   },
+   {
+      "start_time":1324.56659375,
+      "end_time":1328.9878437500001,
+      "speaker":"Alexandre",
+      "texte":" les gâchettes, elles sont interprétées comme du tout ou rien, alors que c'est de l'analogique."
+   },
+   {
+      "start_time":1335.40034375,
+      "end_time":1346.2847187500001,
+      "speaker":"Alexandre",
+      "texte":" Non, mais la question c'est, il faudra faire une passe dessus, pas forcément toi, mais quelqu'un pour voir pourquoi. Je fais part du problème que j'ai rencontré sur le module."
+   },
+   {
+      "start_time":1350.58784375,
+      "end_time":1354.38471875,
+      "speaker":"Clémentine",
+      "texte":" Parfait. Et est-ce qu'il y a de la nouveauté dans la stack de ton côté Thomas ?"
+   },
+   {
+      "start_time":1358.5528437500002,
+      "end_time":1362.4847187500002,
+      "speaker":"Alexandre",
+      "texte":" J'accentue le fait que UR change beaucoup, donc faites très attention aux..."
+   },
+   {
+      "start_time":1363.3622187500002,
+      "end_time":1364.5940937500002,
+      "speaker":"Alexandre",
+      "texte":" nouveautés quoi"
+   },
+   {
+      "start_time":1365.2015937500003,
+      "end_time":1368.4078437500002,
+      "speaker":"Alexandre",
+      "texte":" Si vous mettez à jour, vous risquez d'avoir des petites différences, des petits trucs comme ça."
+   },
+   {
+      "start_time":1372.7784687500002,
+      "end_time":1375.34346875,
+      "speaker":"Clémentine",
+      "texte":" Parfait. Est-ce que quelqu'un a quelque chose à rajouter ?"
+   },
+   {
+      "start_time":1378.75221875,
+      "end_time":1381.4690937500002,
+      "speaker":"Alexandre",
+      "texte":" Oui, les potes en plafond, c'est très chiant."
+   },
+   {
+      "start_time":1383.3253437500002,
+      "end_time":1384.6753437500001,
+      "speaker":"Alexandre",
+      "texte":" ça convient pas ?"
+   },
+   {
+      "start_time":1385.5190937500001,
+      "end_time":1387.9322187500002,
+      "speaker":"Alexandre",
+      "texte":" C'est très chiant à installer."
+   },
+   {
+      "start_time":1389.4678437500002,
+      "end_time":1391.54346875,
+      "speaker":"Guillaume",
+      "texte":" Ça ressemble à un truc, effectivement."
+   },
+   {
+      "start_time":1395.72846875,
+      "end_time":1400.67284375,
+      "speaker":"Clémentine",
+      "texte":" Super. Merci à vous."
+   },
+   {
+      "start_time":1401.78659375,
+      "end_time":1404.1490937500002,
+      "speaker":"Clémentine",
+      "texte":" Merci."
+   },
+   {
+      "start_time":1402.0228437500002,
+      "end_time":1404.2503437500002,
+      "speaker":"Alexandre",
+      "texte":" Merci."
+   },
+   {
+      "start_time":1404.75659375,
+      "end_time":1406.2415937500002,
+      "speaker":"Alexandre",
+      "texte":" Salut, désolé du retard."
+   }
+]
