@@ -1,0 +1,117 @@
+import streamlit as st
+import os
+from pathlib import Path
+
+# Titre de l'application
+col1, col2 = st.columns(2)
+with col1:
+    st.image("aerospline.png", width=200)  # Remplacez "logo1.png" par le chemin de votre premier logo
+with col2:
+    st.image("ai4industry.png", width=200)  # Remplacez "logo2.png" par le chemin de votre second logo
+
+st.title("Résumé de réunion avec reconnaissance vocale")
+
+# Section 1 : Sélection de l'audio principal
+st.header("Fichier audio principal")
+default_audio = "reunion.wav"
+
+# Vérifier si le fichier par défaut existe
+if os.path.exists(default_audio):
+    st.success(f"Fichier audio par défaut trouvé : `{default_audio}`")
+else:
+    st.warning(f"Le fichier audio par défaut `{default_audio}` est introuvable.")
+
+# Permettre à l'utilisateur de changer l'audio principal
+uploaded_main_audio = st.file_uploader(
+    "Téléchargez un fichier audio principal (WAV format préféré)", 
+    type=["wav", "mp3"], 
+    key="main_audio"
+)
+
+if uploaded_main_audio:
+    # Sauvegarder le nouveau fichier principal
+    with open(uploaded_main_audio.name, "wb") as f:
+        f.write(uploaded_main_audio.getbuffer())
+    st.success(f"Fichier audio principal mis à jour : `{uploaded_main_audio.name}`")
+    main_audio_path = uploaded_main_audio.name
+else:
+    main_audio_path = default_audio
+
+# Lecture de l'audio principal
+if os.path.exists(main_audio_path):
+    st.audio(main_audio_path, format="audio/wav")
+
+# Section 2 : Gestion des fichiers d'entraînement pour les participants
+st.header("Voix des participants")
+participants_dir = Path("res_format")
+participants_dir.mkdir(exist_ok=True)  # Crée le dossier s'il n'existe pas
+
+# Ajouter des fichiers audio pour les participants
+st.subheader("Ajouter une voix")
+uploaded_participant_audio = st.file_uploader(
+    "Téléchargez un fichier audio pour un participant (WAV format préféré)", 
+    type=["wav", "mp3"], 
+    key="participant_audio"
+)
+
+if uploaded_participant_audio:
+    # Sauvegarder le fichier audio dans le dossier des participants
+    file_path = participants_dir / uploaded_participant_audio.name
+    with open(file_path, "wb") as f:
+        f.write(uploaded_participant_audio.getbuffer())
+    st.success(f"Fichier audio ajouté pour le participant : `{uploaded_participant_audio.name}`")
+
+# Afficher et gérer les fichiers des participants
+st.subheader("Gérer les voix des participants")
+participant_files = list(participants_dir.glob("*.wav"))
+
+if participant_files:
+    for file in participant_files:
+        with st.expander(f"Participant : {file.stem}"):
+            st.audio(str(file), format="audio/wav")
+            
+            # Option pour supprimer le fichier
+            if st.button(f"Supprimer {file.stem}", key=f"delete_{file.stem}"):
+                file.unlink()  # Supprimer le fichier
+                st.warning(f"Fichier supprimé : {file.stem}")
+                st.experimental_rerun()  # Recharger l'application pour refléter le changement
+else:
+    st.info("Aucun fichier audio de participant n'est présent. Ajoutez-en ci-dessus.")
+
+# Section 3 : Bouton pour générer le résumé
+st.header("Générer un résumé de la réunion")
+if st.button("Générer le résumé"):
+    if not os.path.exists(main_audio_path):
+        st.error("Aucun fichier audio principal n'a été trouvé ! Veuillez en téléverser un.")
+    elif not participant_files:
+        st.error("Aucun fichier audio de participants n'a été trouvé dans `res_format`.")
+    else:
+        # Exemple : Exécuter un script de traitement (remplacez cette section par votre code réel)
+        st.write("Traitement en cours...")
+
+        # Simuler l'analyse et le résumé
+        st.success("Résumé généré avec succès !")
+
+        # Afficher le résumé (vous pouvez remplacer par vos propres données)
+        st.subheader("Résumé de la conversation")
+        st.write("""
+        - **Théo** : Tout le monde est prêt.
+        - **Léa** : Oui, tout le monde est présent sauf ... 
+        """)
+
+        # Option pour télécharger le fichier résumé
+        st.download_button(
+            label="Télécharger le résumé au format texte",
+            data="Théo : Tout le monde est prêt.\nLéa : Oui, tout le monde est présent sauf ...",
+            file_name="resumé.txt",
+            mime="text/plain"
+        )
+
+# Section 4 : Aide supplémentaire
+st.sidebar.title("Instructions")
+st.sidebar.write("""
+1. Téléchargez ou utilisez un fichier audio principal.
+2. Ajoutez ou supprimez les voix des participants à partir du dossier `res_format`.
+3. Cliquez sur "Générer le résumé".
+4. Téléchargez le résumé généré.
+""")
