@@ -13,7 +13,7 @@ st.title("Résumé de réunion avec reconnaissance vocale")
 
 # Section 1 : Sélection de l'audio principal
 st.header("Fichier audio principal")
-default_audio = "reunion.wav"
+default_audio = "echantillon.wav"
 
 # Vérifier si le fichier par défaut existe
 if os.path.exists(default_audio):
