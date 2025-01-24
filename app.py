@@ -97,7 +97,7 @@ st.header("Diarization/Transcription")
 if "show_transcription" not in st.session_state:
     st.session_state.show_transcription = False
 
-if st.button("Afficher/Cacher la transcription"):
+if st.button("Afficher/Masquer la transcription"):
     st.session_state.show_transcription = not st.session_state.show_transcription
 
 if st.session_state.show_transcription:
@@ -140,7 +140,7 @@ if st.button("Générer le résumé"):
 
         # Option pour télécharger le fichier résumé
         st.download_button(
-            label="Télécharger le résumé au format texte",
+            label="Télécharger le résumé en format texte",
             data=resume_content,
             file_name="resumé.txt",
             mime="text/plain"
