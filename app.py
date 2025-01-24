@@ -152,6 +152,6 @@ st.sidebar.markdown("<h1 style='font-size: 50px;'>Formations</h1>", unsafe_allow
 
 st.sidebar.image(resize_image("cytech.png"), width=200)
 st.sidebar.image(resize_image("cesi.png"), width=200)
-st.sidebar.image(resize_image("univrochelle.png"), width=200)
+st.sidebar.image(resize_image("univrochelle.png", (200,200)), width=200)
 
 
