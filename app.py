@@ -4,7 +4,10 @@ from pathlib import Path
 import json
 from PIL import Image
 
-
+st.set_page_config(
+    page_title="Aerospline-IA4Indus",  # Nom de la page
+    page_icon="ai4industry.png",  # Remplace par le chemin de ton logo
+)
 # Titre de l'application
 col1, col2 = st.columns(2)
 with col1:
