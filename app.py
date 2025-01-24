@@ -8,9 +8,9 @@ from PIL import Image
 # Titre de l'application
 col1, col2 = st.columns(2)
 with col1:
-    st.image("images/aerospline.png", width=200)  # Remplacez "logo1.png" par le chemin de votre premier logo
+    st.image("aerospline.png", width=200)  # Remplacez "logo1.png" par le chemin de votre premier logo
 with col2:
-    st.image("images/ai4industry.png", width=200)  # Remplacez "logo2.png" par le chemin de votre second logo
+    st.image("ai4industry.png", width=200)  # Remplacez "logo2.png" par le chemin de votre second logo
 
 st.title("Résumé de réunion avec reconnaissance vocale")
 
@@ -150,8 +150,8 @@ def resize_image(image_path, size=(200, 135)):
 
 st.sidebar.markdown("<h1 style='font-size: 50px;'>Formations</h1>", unsafe_allow_html=True)
 
-st.sidebar.image(resize_image("images/cytech.png"), width=200)
-st.sidebar.image(resize_image("images/cesi.png"), width=200)
-st.sidebar.image(resize_image("images/univrochelle.png"), width=200)
+st.sidebar.image(resize_image("cytech.png"), width=200)
+st.sidebar.image(resize_image("cesi.png"), width=200)
+st.sidebar.image(resize_image("univrochelle.png"), width=200)
 
 
