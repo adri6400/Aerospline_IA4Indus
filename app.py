@@ -2,13 +2,15 @@ import streamlit as st
 import os
 from pathlib import Path
 import json
+from PIL import Image
+
 
 # Titre de l'application
 col1, col2 = st.columns(2)
 with col1:
-    st.image("aerospline.png", width=200)  # Remplacez "logo1.png" par le chemin de votre premier logo
+    st.image("images/aerospline.png", width=200)  # Remplacez "logo1.png" par le chemin de votre premier logo
 with col2:
-    st.image("ai4industry.png", width=200)  # Remplacez "logo2.png" par le chemin de votre second logo
+    st.image("images/ai4industry.png", width=200)  # Remplacez "logo2.png" par le chemin de votre second logo
 
 st.title("Résumé de réunion avec reconnaissance vocale")
 
@@ -96,11 +98,17 @@ if st.button("Afficher/Cacher la transcription"):
     st.session_state.show_transcription = not st.session_state.show_transcription
 
 if st.session_state.show_transcription:
-    transcription_file = "aerospline_transcription.json"
+    transcription_file = "resultat/aerospline_transcription.json"
     if os.path.exists(transcription_file):
         with open(transcription_file, "r") as f:
             transcription_data = json.load(f)
         st.json(transcription_data)
+        st.download_button(
+            label="Télécharger la transcription au format json",
+            data=json.dumps(transcription_data),
+            file_name="transcription.json",
+            mime="application/json"
+        )
     else:
         st.error(f"Le fichier `{transcription_file}` est introuvable.")
 
@@ -109,34 +117,41 @@ st.header("Générer un résumé de la réunion")
 if st.button("Générer le résumé"):
     if not os.path.exists(main_audio_path):
         st.error("Aucun fichier audio principal n'a été trouvé ! Veuillez en téléverser un.")
-
     else:
         # Exemple : Exécuter un script de traitement (remplacez cette section par votre code réel)
-        st.write("Traitement en cours...")
 
         # Simuler l'analyse et le résumé
         st.success("Résumé généré avec succès !")
 
         # Afficher le résumé (vous pouvez remplacer par vos propres données)
-        st.subheader("Résumé de la conversation")
-        st.write("""
-        - **Théo** : Tout le monde est prêt.
-        - **Léa** : Oui, tout le monde est présent sauf ... 
-        """)
+        
+
+        # Lire et afficher le contenu de resume.md
+        resume_file = "resultat/resume.md"
+        if os.path.exists(resume_file):
+            with open(resume_file, "r") as f:
+                resume_content = f.read()
+            st.markdown(resume_content)
+        else:
+            st.error(f"Le fichier `{resume_file}` est introuvable.")
 
         # Option pour télécharger le fichier résumé
         st.download_button(
             label="Télécharger le résumé au format texte",
-            data="Théo : Tout le monde est prêt.\nLéa : Oui, tout le monde est présent sauf ...",
+            data=resume_content,
             file_name="resumé.txt",
             mime="text/plain"
         )
+def resize_image(image_path, size=(200, 135)):
+    img = Image.open(image_path)
+    img = img.resize(size)
+    return img
 
-# Section 5 : Aide supplémentaire
-st.sidebar.title("Instructions")
-st.sidebar.write("""
-1. Téléchargez ou utilisez un fichier audio principal.
-2. Ajoutez ou supprimez les voix des participants à partir du dossier `res_format`.
-3. Cliquez sur "Générer le résumé".
-4. Téléchargez le résumé généré.
-""")
+
+st.sidebar.markdown("<h1 style='font-size: 50px;'>Formations</h1>", unsafe_allow_html=True)
+
+st.sidebar.image(resize_image("images/cytech.png"), width=200)
+st.sidebar.image(resize_image("images/cesi.png"), width=200)
+st.sidebar.image(resize_image("images/univrochelle.png"), width=200)
+
+
